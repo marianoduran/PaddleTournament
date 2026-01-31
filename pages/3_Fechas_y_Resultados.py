@@ -10,10 +10,10 @@ st.header("🏆 Tabla de Posiciones")
 
 # Inicialmente vacía o con datos de prueba
 data_posiciones = [
-    {"Pareja": "Guillermo Sesarego y Agustin Duran", "PJ": 0, "PG": 0, "PP": 0, "Puntos": 0},
-    {"Pareja": "Matias Duran y Felipe Sesarego", "PJ": 0, "PG": 0, "PP": 0, "Puntos": 0},
-    {"Pareja": "Bruno Sesarego y Mariano Duran", "PJ": 0, "PG": 0, "PP": 0, "Puntos": 0},
-    {"Pareja": "Juan Manuel Duran y Pedro Rosso", "PJ": 0, "PG": 0, "PP": 0, "Puntos": 0}
+    {"Pareja": "Guillermo Sesarego y Agustin Duran", "PJ": 0, "PG": 0, "PP": 0, "GG": 0, "GP": 0, "Puntos": 0},
+    {"Pareja": "Matias Duran y Felipe Sesarego", "PJ": 0, "PG": 0, "PP": 0, "GG": 0, "GP": 0, "Puntos": 0},
+    {"Pareja": "Bruno Sesarego y Mariano Duran", "PJ": 0, "PG": 0, "PP": 0, "GG": 0, "GP": 0, "Puntos": 0},
+    {"Pareja": "Juan Manuel Duran y Pedro Rosso", "PJ": 0, "PG": 0, "PP": 0, "GG": 0, "GP": 0, "Puntos": 0}
 ]
 
 df_posiciones = pd.DataFrame(data_posiciones)

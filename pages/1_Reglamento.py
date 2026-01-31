@@ -35,6 +35,20 @@ st.markdown("""
 
 **Vestimenta**: Uso obligatorio de calzado deportivo adecuado (suela espiga o específica de pádel) y ropa deportiva.
 
+### 5. Sistema de Puntuación (Clasificación)
+**Para determinar quién pasa a la siguiente fase, se asignarán puntos por partido jugado de la siguiente manera**:
+
+*   **Partido Ganado**: 3 puntos.
+*   **Partido Perdido**: 1 punto (incentivo por completar el partido).
+*   **W.O. (No presentado)**: 0 puntos para la pareja ausente (y -1 en la diferencia de sets).
+
+**Criterios de Desempate**: Si dos o más parejas terminan empatadas en puntos al finalizar la fase de grupos, se decidirá el orden según:
+
+1.  Enfrentamiento directo entre las parejas empatadas.
+2.  Diferencia de sets (sets ganados menos sets perdidos).
+3.  Diferencia de juegos (juegos ganados menos juegos perdidos).
+4.  Sorteo (si persiste la igualdad absoluta).
+
 ---
 **Nota del Organizador**: La decisión del juez-árbitro (o comité organizador) será inapelable en caso de conflicto durante el torneo.
 """)
