@@ -5,8 +5,10 @@ st.set_page_config(page_title="Fechas y Resultados", page_icon="📅")
 
 st.title("📅 Fechas y Resultados")
 
+st.markdown("🔗 [Detalle de Partidos](https://docs.google.com/spreadsheets/d/1Yx_n1_cXS3i8lU1l-9myD39JlygPEI1QeKfojO0rNJw/edit?gid=0#gid=0)")
+
 # --- Sección 1: Tabla de posiciones ---
-st.header("🏆 Tabla de Posiciones")
+
 
 import requests
 import io
