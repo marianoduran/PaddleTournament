@@ -36,15 +36,11 @@ I have built the Streamlit application for the Paddle Tournament. Here is how yo
     -   Juan Manuel Duran y Pedro Rosso
 
 ### 📅 Fechas y Resultados (`pages/3_Fechas_y_Resultados.py`)
--   **Tabla de Posiciones**: A table tracking the standings. Columns:
-    -   **Pareja**: Team name.
-    -   **PJ**: Matches Played.
-    -   **PG**: Matches Won.
-    -   **PP**: Matches Lost.
-    -   **GG**: Games Won.
-    -   **GP**: Games Lost.
-    -   **Puntos**: Total Points.
--   **Partidos**: A list of matches with dates set to **31-Ene-2026**.
+-   **Dynamic Integration**: This page now pulls data directly from the Google Sheet "Detalle Partidos".
+-   **Tabla de Posiciones**: Automatically calculated from the match results.
+    -   Points: 3 for Win, 1 for Loss.
+    -   Tracks Matches Played (PJ), Won (PG), Lost (PP), Games Won (GG), Games Lost (GP).
+-   **Partidos**: Displays the full list of matches and results fetched from the sheet.
 
 ## Next Steps
--   Update `pages/3_Fechas_y_Resultados.py` to enter real match results.
+-   To update the data, simply add new rows to the [Google Sheet](https://docs.google.com/spreadsheets/d/1Yx_n1_cXS3i8lU1l-9myD39JlygPEI1QeKfojO0rNJw/edit?gid=638426066#gid=638426066). The app will reflect changes on reload (cached for 60 seconds).
